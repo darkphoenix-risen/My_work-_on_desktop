@@ -1,0 +1,1 @@
+select ceil (12.345) from dual;

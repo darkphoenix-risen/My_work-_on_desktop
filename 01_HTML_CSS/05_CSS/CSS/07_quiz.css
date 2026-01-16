@@ -1,0 +1,13 @@
+
+li {
+  list-style-type: none;
+  line-height: 2;
+}
+span {
+  font-weight: bold;
+}
+p {
+  color: green;
+  text-decoration: underline;
+  line-height: 2;
+}

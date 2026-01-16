@@ -1,0 +1,1 @@
+select to_char(salary, 'L999,999') from employee;

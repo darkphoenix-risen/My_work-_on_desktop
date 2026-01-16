@@ -1,0 +1,18 @@
+.quiz{
+width: 100px;
+height: 100px;
+background-color: rgb(234, 141, 87);
+
+margin: 5px;
+}
+
+.quiz2{
+width: 100px;
+height: 100px;
+background-color: rgb(58, 70, 149);
+display: none;
+/* 성격개조 속성에 사라지게 하는 것 드롭다운 메뉴*/
+margin: 5px;
+
+}
+

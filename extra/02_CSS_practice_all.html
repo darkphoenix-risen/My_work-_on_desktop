@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href=".//CSS/01_title.css" />
+    <link rel="stylesheet" href="./CSS/02_2nd.css" />
+    <link rel="stylesheet" href="./CSS/03_3rd.css" />
+    <link rel="stylesheet" href="./CSS/04_4th.css" />
+    <link rel="stylesheet" href="./CSS/05_float.css">
+    <link rel="stylesheet" href="./CSS/06_flex.css">
+    <link rel="stylesheet" href="./CSS/07_image.css">
+  </head>
+  <body>
+    <!-- tr 행, td 열 -->
+    <table border="1">
+      <thead>
+        <!-- 제목 -->
+        <tr>
+          <th id="title" colspan="5"><h1>CSS</h1></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- 내용 -->
+        <tr id="fstrow">
+          <td id="back">background colour <br />colour</td>
+          <td id="selecter">#id <br />.class</td>
+          <td id="list1">
+            <ul>
+              <li>리스트 커스텀</li>
+              <li>동그라미 빼기</li>
+            </ul>
+          </td>
+          <td id="list2">
+            <ul>
+              <li>리스트 커스텀</li>
+              <li>네모 넣기</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>리스트 커스텀</li>
+              <li>디자인 넣기</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td>list-style-type:none;</td>
+          <td>list-style-type:square;</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td #id="line" colspan="5"><hr class = "hr"></td>
+        </tr>
+
+        <tr id="fonts">
+          <td><h1>제목</h1></td>
+          <td><h2>제목</h2></td>
+          <td><h3>제목</h3></td>
+          <td><h4>제목</h4></td>
+          <td><h5>제목</h5></td>
+        </tr>
+
+        <tr>
+          <td id="fontsb">font-weight</td>
+          <td>
+            line-height <br /><br />
+            줄사이 간격
+          </td>
+          <td>font-size</td>
+          <td>font-family:</td>
+          <td>font-style <br />italic, oblique</td>
+        </tr>
+
+        <tr>
+          <td #id="line" colspan="5"><hr class = "hr"></td>
+        </tr>
+        <tr>
+          
+          <td id="webfont">구글 폰트</td>
+          <td id="left">왼쪽 정렬</td>
+          <td id="centre">가운데 정렬</td>
+          <td id="right">오른쪽 정렬</td>
+          <td><form><input type="hidden" value="숨어있는"></form>숨어있는 <input type="text"></td>
+        </tr>
+        <tr>
+          
+          <td>
+            @import url(...) <br />
+            font-family: 000, 000 등등
+          </td>
+          <td>text-align: left</td>
+          <td>text-align: center</td>
+          <td>text-align: right</td>
+          <td>input type="hidden"</td>
+        </tr>
+        <tr>
+          <td #id="line" colspan="5"><hr class = "hr"></td>
+        </tr>
+       
+        <tr>
+          <td>
+            <form>
+              <input id="input" type="text" placeholder="문자를 입력" /> <br />
+              <input id="pw" type="password" placeholder="암호를 입력" />
+            </form>
+          </td>
+          <td><form><input type="checkbox"><input type="checkbox">
+          </form></td>
+          <td><form><input type="radio">
+          <input type="radio"></form></td>
+          <td><form><input type="button" value="버튼"><button>버튼</button></form></td>
+          <td><form><input type="file">
+          <input type="submit"></form></td>
+        </tr>
+        <tr>
+          <td>form안에 input type = "text" <br> placeholder = "입력글자" , <br> form안에 input type = "text"</td>
+          <td>form안에 input type = "checkbox"</td>
+          <td>form안에 input type = "radio"</td>
+          <td>form안에 input type = "button"</td>
+          <td>form안에 input type = "file"과 "submit"</td>
+        </tr>
+        <tr>
+          <td id="line" colspan="5" ><hr class = "hr"></td>
+          
+        </tr>
+        <tr>
+          <td id="img-tdw"> <div class = "img-w">
+        <img  src="./img/R2tea2.jpg" alt=""><br> 넓이 설정</div></td>
+          <td ><img id = "img-h" src="./img/tea.jpg" alt=""><br>높이 설정</td>
+          <td><div id = "float-l">float left</div></td>
+          <td><div id = "float-c">float centre <br> 없다
+          </div></td>
+          <td><div id = "float-r">float right</div></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td id = "line" colspan="5"><hr class = "hr"></td>  
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

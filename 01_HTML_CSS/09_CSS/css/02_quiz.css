@@ -1,0 +1,20 @@
+.quiz {
+  /* backgound colour */
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 5px;
+
+  /* 성격개조 속성은 display */
+display: inline-block;
+}
+
+.quiz2 {
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 5px;
+  display: inline-block;
+}

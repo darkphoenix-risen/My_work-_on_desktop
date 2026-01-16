@@ -1,0 +1,7 @@
+/* 상태선택자 */
+input:enabled{background-color: white;}
+
+input:focus{background-color: orange;}
+
+input:disabled{background-color: gray;}
+

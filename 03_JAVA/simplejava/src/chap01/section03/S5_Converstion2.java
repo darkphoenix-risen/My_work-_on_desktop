@@ -1,0 +1,13 @@
+package chap01.section03;
+
+public class S5_Converstion2 {
+    public static void main(String[] args) {
+
+
+        String a = "1.5";
+        double b = Double.parseDouble(a);
+
+
+        System.out.println(b);
+    }
+}

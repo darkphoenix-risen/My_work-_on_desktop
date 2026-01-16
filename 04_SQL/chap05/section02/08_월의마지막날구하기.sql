@@ -1,0 +1,1 @@
+select ename, hiredate, last_day(hiredate) from employee;

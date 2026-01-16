@@ -1,0 +1,10 @@
+/* 반응선택자 */
+.example:hover{
+color: red;
+
+}
+
+.example:active{
+color: blue;
+
+}

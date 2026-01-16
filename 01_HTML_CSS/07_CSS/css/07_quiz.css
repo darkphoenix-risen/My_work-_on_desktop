@@ -1,0 +1,8 @@
+.quiz {
+width: 90vw;
+height: 30vh;
+background-image: url(../../img/7_7_2_quiz.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}

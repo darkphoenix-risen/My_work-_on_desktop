@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 80vw;
+    height: 800px;
+    background-color: beige;
+    /* 중앙이동 */
+    margin: 0 auto;
+}
+
+/* 머리말 */
+header {
+    width: 80vw;
+    height: 20%;
+    background-color: gray;
+}
+
+/* 대메뉴 디자인 */
+nav li {
+    /* 가로를 세로로 성격개조 */
+    display: inline-block;
+    height: 90px;
+}
+
+/* 본문왼쪽 float*/
+section{
+width: 70%;
+height: 50%;
+background-color: aquamarine;
+float: left;
+}
+/* 사이드바 오른족 (float) */
+aside{
+    width: 30%;
+    height: 50%;
+    background-color: blueviolet;
+    float: right;
+}
+
+/* 꼬리말 디자인 */
+footer {
+    /* float 인식 */
+clear: both;
+width: 80vw;
+height: 20%;
+background-color: cornflowerblue;
+}

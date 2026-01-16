@@ -1,0 +1,15 @@
+.quiz {
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  display: inline-block;
+  margin: 5px;
+}
+
+.quiz2 {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  display: inline-block;
+  margin: 5px;
+}

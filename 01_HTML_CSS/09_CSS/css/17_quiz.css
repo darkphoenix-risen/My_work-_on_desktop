@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 80vw;
+    height: 800px;
+    background-color: beige;
+    margin: 0 auto;
+}
+
+header {
+    width: 80vw;
+    height: 20%;
+    background-color: gray;
+}
+/* 메뉴 */
+nav li {
+    /* 성격 개조: 세로 -> 가로 */
+    display: inline-block;
+}
+/* 본문 */
+section {
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+/* 사이드바 */
+aside {
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+/* 꼬리말 */
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+}
+
+/* 태블릿: 가로 768px 이상 디자인 적용 */
+/* 태블릿에서 변경되거나 새로운 것만 디자인 하는 것이 좋다 */
+
+@media screen and (min-width: 768px){
+    /* 본문 */
+section {
+    width: 70%;
+ 
+    float: right;
+}
+/* 사이드바 */
+aside {
+    width: 30%;
+   
+    float: left;
+}
+}
+footer {
+    clear: both;
+}

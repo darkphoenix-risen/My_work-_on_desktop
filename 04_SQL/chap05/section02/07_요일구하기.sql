@@ -1,0 +1,1 @@
+select next_day(sysdate, '일요일')from dual;

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/12_hover.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="gnb">
+        <li><h2>홈</h2></li>
+        <li id="sub-menu">
+          <h2>웹퍼블리싱></h2>
+          <ul id="drop-down">
+            <li><h3>HTML</h3></li>
+            <li><h3>CSS</h3></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <br />
+    <!-- jquery 넣기-->
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+      $(function () {
+        $("#sub-menu").hover(
+          function () {
+            $("#drop-down").show();
+          },
+          function () {
+            $("#drop-down").hide();
+          }
+        );
+      });
+    </script>
+  </body>
+</html>

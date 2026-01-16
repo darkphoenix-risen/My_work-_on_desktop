@@ -1,0 +1,17 @@
+#fonts h1 {
+font-weight: bold;
+
+}
+
+#fonts h2{
+    line-height: 3;
+}
+
+#fonts h3 {
+    font-size: 10px;
+}
+#fonts h4 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+#fonts h5 { font-style: italic;}
+
+#fontsb {font-weight: bold;}

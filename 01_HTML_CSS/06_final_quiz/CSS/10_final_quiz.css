@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+
+h1 {
+    font-family: "Moirai One", system_ui;
+        text-align: center;
+        border: 3px solid green;
+        border-radius: 5px  ;
+}

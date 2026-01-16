@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      .example {
+        width: 100%;
+      }
+      .example > img {
+        max-width: 100%;
+        height: auto;
+      }
+      .swiper {
+        width: 30%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="mySwiper swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- TODO: 여기에 1번 이미지 사용하기 -->
+          <div class="example">
+            <img src="../img/15_click_attr_cat.jpg" alt="고양이" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- TODO: 여기에 2번 이미지 사용하기 -->
+          <div class="example">
+            <img src="../img/15_click_attr_dog.jpg" alt="강아지" />
+          </div>
+        </div>
+      </div>
+      <!-- TODO: 페이지 표시: 플러그인이 자동으로 그려줌(...) -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+   <!-- swipe js internet -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+        var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+                 pagination: {
+        el: ".swiper-pagination",
+      },
+      });
+</script>
+  </body>
+</html>

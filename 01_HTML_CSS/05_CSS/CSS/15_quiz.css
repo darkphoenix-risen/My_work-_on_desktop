@@ -1,0 +1,10 @@
+/* 반응선택자 */
+.quiz:hover{
+color: green;
+
+}
+
+.quiz:active{
+color: orange;
+
+}

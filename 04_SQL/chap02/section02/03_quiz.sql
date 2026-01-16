@@ -1,0 +1,1 @@
+SELECT distinct job from employee;

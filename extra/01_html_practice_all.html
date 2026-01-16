@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- tr 행, td 열 -->
+    <table border="1">
+      <thead>
+        <!-- 제목 -->
+        <tr>
+          <th></th>
+          <th>그림</th>
+          <th>영상</th>
+          <th>음원</th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- 내용 -->
+        <tr>
+          <td><h3>출 <br> 력</h3></td>
+          <td>
+            <a href="http://www.naver.com/">
+              <img
+                height="150"
+                src="../img/rabbit.jpg"
+                alt="초록잔디에 있는 아기 토끼"
+            /></a>
+          </td>
+          <td>
+            <video height="150" controls="controls">
+              <source src="../video/08_example.mp4" type="video/mp4" />
+            </video>
+          </td>
+          <td>
+            <audio controls="controls">
+              <source src="../audio/09_example.mp3" type="audio/mp3" />
+            </audio>
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td scope="row">
+            <ul>
+              <li>그림을 누르면 네이버로</li>
+              <li>그림은 토끼</li>
+              <li>새 패이지로 열린다</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>영상보기는 링크가 없다</li>
+              <p>그냥 봐라</p>
+              <li><a href="http://www.google.com/">그냥 구글링크</a></li>
+            </ul>
+          </td>
+          <td>
+            <ol>
+              <li>지속시간 1분미만</li>
+              <li>무슨소린지 안들었다</li>
+            </ol>
+          </td>
+          <td>
+            셀<br />합치기는<br />
+            밑에
+          </td>
+        </tr>
+
+        <tr>
+          <td scope="row" colspan="5"><hr /></td>
+        </tr>
+
+        <tr>
+          <td scope="row"><h3>입<br>력</h3></td>
+          <td>
+            이름<label for="name"><input type="text" /></label><br />
+            암호<label for="password"><input type="password" /></label>
+          </td>
+          <td>
+            <label for="선택"><input type="checkbox" />확인</label><br />
+            <label for="선택"><input type="checkbox" />입력</label>
+            <br />체크박스는 중복가능
+          </td>
+          <td>
+            <label for="선택"><input type="radio" name="확인" />확인</label
+            ><br />
+            <label for="선택"><input type="radio" name="확인" />입력</label>
+            <br />radio는 중복불가<br />
+            라디오 재생아님
+          </td>
+
+          <td>
+            <label for="file"><input type="file" /></label>
+            <label for="summit"><input type="submit" value="제출" /></label>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            다 나으면 먹을것은?<br />
+            <select name="" id="">
+              <option value="">고기</option>
+              <option value="">라면</option>
+              <option value="">라멘</option>
+              <option value="">카이센동</option>
+              <option value="">마파두부</option>
+            </select>
+          </td>
+          <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+          <td>글자에 &nbsp;&nbsp;&nbsp;&nbsp;띄우기 &amp;nbsp ;"</td>
+          <td>
+            특수 문자 쓰기 <br />
+            꺽쇠입력<br />
+            &lt; , &gt;<br />&amp;lt; 와 &amp;gt;
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5">
+            &amp;amp;를 넣으면 코드에서 &가 표시. 그뒤에 코드를 입력하면 표시됨
+          </td>
+        </tr>
+        <tr>
+          <td>css  </td>
+          <td>css는 head에서 설정 <br>../와 ./폴더찾기</td>
+          <td>css에서 작성</td>
+          <td>결과는 html파일에서 보기</td>
+          
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

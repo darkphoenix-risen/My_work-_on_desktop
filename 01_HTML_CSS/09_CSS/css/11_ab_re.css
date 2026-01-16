@@ -1,0 +1,16 @@
+.parent {
+  width: 10vw;
+  height: 10vh;
+  border: 1px solid gray;
+  position: relative;
+ 
+}
+/* 부모태그에 상대좌표를 지정하면 자식의 (0,0) 좌표는 부모 박스의 왼쪽 모서리로 변경 */
+.box {
+     width: 30%;
+  height: 30%;
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

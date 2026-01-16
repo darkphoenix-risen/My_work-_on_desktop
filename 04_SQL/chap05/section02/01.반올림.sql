@@ -1,0 +1,1 @@
+select round(12.34, 1) from dual;

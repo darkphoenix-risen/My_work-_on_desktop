@@ -1,0 +1,15 @@
+.container {
+  height: 90vh;
+  width: 80vw;
+  background-color: lightgray;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.example {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  margin: 5px;
+}

@@ -1,0 +1,14 @@
+th{
+    background-color: #1E90FF;
+    color: white;
+}
+
+table, tr, th, td {
+   
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td{
+    font-size: 0.7rem;
+}

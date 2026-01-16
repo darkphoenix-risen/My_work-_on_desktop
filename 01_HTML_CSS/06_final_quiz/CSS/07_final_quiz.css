@@ -1,0 +1,16 @@
+#banner {background-color: lightyellow;
+width: 270px;
+height: 270px;
+padding: 20px;
+border: 2px solid lightgray ;
+margin: 1.2rem 0 0 1.2rem;
+}
+
+#button { background-color: #DC143C;
+color: white;
+text-align: center;
+width: 100px;
+border-radius: 10px;
+
+margin-top: 2rem;
+}

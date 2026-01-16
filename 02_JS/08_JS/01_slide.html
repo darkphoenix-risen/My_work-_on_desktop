@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, 
+maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Demo styles -->
+    <style>
+      .cat {
+        width: 99vw;
+        height: 60vh;
+        background-image: url("../img/15_click_attr_cat.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .dog {
+        width: 99vw;
+        height: 60vh;
+        background-image: url("../img/15_click_attr_dog.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mySwiper swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- TODO: 여기에1번배경이미지사용하기-->
+          <div class="cat"></div>
+        </div>
+        <div class="swiper-slide">
+          <!-- TODO: 여기에2번배경이미지사용하기-->
+          <div class="dog"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Swiper JS: 공식사이트) https://swiperjs.com/demos -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+  
+      });
+    </script>
+  </body>
+</html>

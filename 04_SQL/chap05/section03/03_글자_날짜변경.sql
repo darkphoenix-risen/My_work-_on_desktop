@@ -1,0 +1,1 @@
+select ename, hiredate from employee where hiredate=to_date('80/12/17');

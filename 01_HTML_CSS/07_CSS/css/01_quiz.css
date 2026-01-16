@@ -1,0 +1,9 @@
+.quiz{
+    width: 10vw;
+    height: 15vh;
+    background-color: lightblue;
+
+    border: 5px solid gray;
+    padding: 5px;
+    margin: 5px;
+}

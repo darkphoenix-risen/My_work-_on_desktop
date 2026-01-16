@@ -1,0 +1,1 @@
+select 'Oracle ' || ename from employee;

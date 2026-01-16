@@ -1,0 +1,1 @@
+select ename, instr(ename, 'S') from employee;

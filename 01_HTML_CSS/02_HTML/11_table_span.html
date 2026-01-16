@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- tr 행, td 열 -->
+    <table border="1">
+      <thead>
+        <!-- 제목 -->
+        <!-- 1행 -->
+        <tr>
+          <th scope="col">구분</th>
+          <th scope="col">운행시간</th>
+          <th scope="col">배차간격</th>
+          <th scope="col">운행구간</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- 내용 -->
+
+        <!-- 2행 -->
+        <tr>
+          <td scope="row">마을버스6</td>
+          <td rowspan="3">07:00 - 23:00</td> 
+          <!-- 밑에 중복된것은 지우기 -->
+          <td>10분</td>
+          <td>대학본부 - oo치안센터</td>
+        </tr>
+
+        <tr>
+        <!-- 3행 -->  
+          <td scope="row">마을버스6-1</td>
+          
+          <td>10분</td>
+          <td>대학본부 - oo역5번출구</td>
+        </tr>
+
+        <tr>
+          <!-- 4행 -->
+          <td scope="row">마을버스9</td>
+          
+          <td>10분</td>
+          <td>생활관 - oo기숙사</td>
+        </tr>
+
+        <!-- 5행 -->
+        <tr>
+          <td scope="row" colspan="4">ooo번 시내버스 오전 11:00까지 oo로터리 경유</td>
+         
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

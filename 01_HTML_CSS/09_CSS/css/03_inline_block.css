@@ -1,0 +1,18 @@
+.example {
+
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+/* 성격개조 속성은 display */
+display: inline-block;
+
+}
+
+.example2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 5px;
+    display: inline-block;
+}

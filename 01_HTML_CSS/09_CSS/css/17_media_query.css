@@ -1,0 +1,75 @@
+/* css 사용법: 1) 태그 {속성:값;} 2) #id별명 {속성:값;} 3) .class별명 {속성:값;} 
+/* 핸드폰 디자인 */
+/* 전체 디자인 -> 부분 디자인 */
+* {
+    /* 바깥여백 */
+    margin: 0;
+    /* 안쪽여백 */
+    padding: 0;
+    /* 모드 변경: 가로/세로에 패딩(안쪽여백) 포함 */
+    box-sizing: border-box;
+}
+/* 컨테이너(페이지) */
+#container {
+    width: 80vw;
+    height: 800px;
+    background-color: beige;
+    /* 중앙 이동 */
+    margin: 0 auto;
+}
+/* 머리말 디자인 */
+header {
+    width: 80vw;
+    height: 20%;
+    background-color: gray;
+}
+/* 메뉴 */
+nav li {
+    /* 성격 개조: 세로 -> 가로 */
+    display: inline-block;
+}
+/* 본문 */
+section {
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+/* 사이드바 */
+aside {
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+/* 꼬리말 */
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+}
+
+/* 태블릿: 가로 768px 이상 디자인 적용 */
+/* 태블릿에서 변경되거나 새로운 것만 디자인 하는 것이 좋다 */
+
+@media screen and (min-width: 768px){
+    /* 본문 */
+    section {
+       width: 70%;
+     
+       /* 좌측 배치 */
+       float: left;
+    }
+    /* 사이드바 */
+    aside {
+       width: 30%;
+      
+       /* 우측 배치 */
+       float: right;
+    }
+}
+
+/* 꼬리말 */
+footer {
+  
+    /* float 인식 */
+    clear: both;
+}

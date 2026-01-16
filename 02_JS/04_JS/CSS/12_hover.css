@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ li {list-style-type: none;}
+
+  .gnb > li {float: left; margin-left: 10px;}
+ /* 드롭다운메뉴최초에숨김*/
+ #drop-down {
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: none;
+ }
+
+ #drop-down li{display: inline-block;}

@@ -1,0 +1,1 @@
+select salary, mod(salary, 2) from employee;

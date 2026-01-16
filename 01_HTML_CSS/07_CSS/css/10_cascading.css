@@ -1,0 +1,19 @@
+#id-div {
+    color: aqua;
+}
+
+#id-h1 {
+    color: blue    ;
+}
+
+.class-h1 {
+    color: aquamarine;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+* {
+    color: blueviolet;
+}

@@ -1,0 +1,15 @@
+.quiz {
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin: 10px;
+    float:right;
+}.quiz2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    margin: 10px;
+    float: left;
+}
+
+.dummy {clear: both;}

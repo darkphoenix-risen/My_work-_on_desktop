@@ -1,0 +1,17 @@
+.card {
+    border: 1px solid gray;
+    border-style: inset;
+    width: 20vw;
+    border-radius: 10px;
+    margin: 3rem;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body {
+    border-top: 1px solid gray;
+padding: 1rem;
+}
+

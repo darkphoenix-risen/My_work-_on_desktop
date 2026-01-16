@@ -1,0 +1,6 @@
+#back {background-color: deepskyblue;
+text-align: center;
+color: white;}
+
+#list1 li {list-style-type: none;}
+#list2 li {list-style-type: square;}

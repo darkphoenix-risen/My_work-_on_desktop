@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* TODO: 제목디자인1 */
+      .desing1 {
+        background-color: green;
+        color: white;
+      }
+      /* TODO: 제목디자인2 */
+      .desing2 {
+        background-color: yellow;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="heading" class="desing1">HTML</h3>
+    <button id="quiz" onclick="quizFunc()">디자인2 적용</button>
+
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+
+<script>
+    $(function(){
+        $("#quiz").click(function(){
+            $("#heading").removeClass().addClass("desing2")
+        })
+    })
+</script>
+
+  </body>
+</html>

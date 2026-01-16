@@ -1,0 +1,1 @@
+select ename, hiredate, add_months(hiredate, 6) from employee;

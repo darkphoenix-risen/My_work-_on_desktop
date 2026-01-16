@@ -1,0 +1,1 @@
+select substr (ename, 1,1) from employee;

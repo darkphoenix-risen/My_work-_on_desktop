@@ -1,0 +1,10 @@
+.example {
+    width: 99vw;
+    height: 30vh;
+    background-image: url(../../img/7_7_1_example.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+

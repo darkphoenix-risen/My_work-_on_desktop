@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #gnb > li {
+        float: left;
+        margin-left: 10px;
+      }
+      li {
+        list-style-type: none;
+      }
+      #drop {
+        border: 1px solid lightgray;
+        padding: 10px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="gnb">
+      <li id="sub" onmouseover="quizFunc()" onmouseout="quizFunc2()">
+        <h2>관리자</h2>
+        <!-- 마우스를 올리면 보이기 -->
+        <ul id="drop">
+          <li><h3>회원관리</h3></li>
+          <li><h3>진열관리</h3></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- jquery 인터넷 주소 -->
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+
+    <script>
+        $(function () {
+            // hover(function (){},function (){})
+            // 1번째 function: 마우스를 올렸을때
+            // 2번째 function: 마우스를 내렸을때
+            $("#sub").hover(function () {
+                // 1번째 function: 마우스를 올렸을때 보이기
+                $("#drop").show()
+            },function () {
+                // 2번째 function: 마우스를 내렸을때 안보이기
+                $("#drop").hide()
+            })
+
+        })
+    </script>
+
+  </body>
+</html>

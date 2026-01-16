@@ -1,0 +1,14 @@
+package chap06.section01.example01;
+
+public class TaxiApplication {
+
+
+    public static void main(String[] args) {
+
+        Taxi taxi = new Taxi();
+        System.out.println(taxi.company);
+        taxi.Speed=100;
+        System.out.println(taxi.Speed);
+    }
+}
+
